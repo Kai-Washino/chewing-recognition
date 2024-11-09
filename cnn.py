@@ -3,6 +3,7 @@ from tensorflow.keras.layers import Conv1D, MaxPooling1D, Masking, Flatten, Dens
 from sklearn.datasets import make_classification
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
+import numpy as np
 
 class CNN(): 
     def __init__(self, scale = 661, time_range = 65, num_class = 2, start_filter = 8):
